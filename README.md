@@ -4,6 +4,7 @@ Simple Python client for put.io API v2
 
 This is simple Python client for put.io API v2. Here is a simple example;
 
+```python
 from putio import Putio
 
 putio = Putio(client_id='1111', oauth_token='XXXXXX')
@@ -12,6 +13,7 @@ putio.Transfer.list()
 putio.Friend.list()
 putio.Account.info()
 putio.Event.list()
+```
 
 All of the methods return raw json data instead processing on that.
 
